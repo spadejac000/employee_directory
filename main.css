@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 32px 0;
+  background-color: #f5f5f5;
+}
+
+.container {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.site-title {
+  padding: 32px;
+}
+
+#employeeList {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 1em;
+}
+
+#employeeList > div {
+  border: 2px solid darkgrey;
+  border-radius: 5px;
+  padding: 1em;
+  background-color: white;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  grid-gap: 1em;
+}
+
+#employeeList > div > div > img {
+  border-radius: 50%;
+}
+
+p {
+  color: #bbb;
+}
